@@ -1,0 +1,16 @@
+package progra2examen1;
+
+public class Guerrero extends Personaje
+{
+	Guerrero(int vida, int ataque) 
+	{
+		super(vida, ataque);
+		
+	}
+
+	void poderEspecial()
+	{
+		System.out.println("vida/2, ataque*2");
+	}
+
+}
